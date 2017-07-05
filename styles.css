@@ -1,0 +1,127 @@
+        #top-bar-margin {
+            margin-bottom: 20px;
+        }
+        
+        #nav-bar-title {
+            font-family: 'Georgia', serif;
+            font-size: 24px;
+        }
+        
+        #nav-bar-dropdown {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        img.nav-logo {
+            height: 35px;
+            padding: 10px 25px 0px 10px;
+        }
+        
+        .scrbbl-embed {
+            width: 100% !important;
+            height: 745px !important;
+            margin-bottom: 25px !important;
+        }
+        
+        #searchable-table_wrapper select {
+            width: 100%;
+        }
+        
+        h3.subhead-panel {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            color: #808080;
+            margin-bottom: 2px;
+        }
+        
+        h3.subhead {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            color: #808080;
+        }
+        
+        h4.panelsub {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 29px;
+            color: #808080;
+        }
+        
+        ul {
+            font-weight: bold;
+        }
+        
+        blockquote {
+            font-family: Georgia, serif;
+            font-size: 34px;
+            line-height: 39px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        cite {
+            font-family: Georgia, serif;
+            font-size: 16px !important;
+            line-height: 19px;
+            text-align: right;
+            margin-top: 10px;
+        }
+        
+        .section-header {
+            background-color: #8e1024;
+            height: 35px;
+            font-family: Helvetica, sans-serif;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-top: 4px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        hr.panel-hr {
+            border: none;
+            height: 4px;
+            background-color: #808080;
+        }
+        
+        p.anchor-links {
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 16px;
+        }
+        
+        p.intro {
+            font-size: 18px;
+        }
+        
+        .ndn_embed {
+            margin: 25px 0px 35px 0px;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        body {
+            background: #fafafa;
+        }
+        
+        a:link {
+            border-bottom: 1px dotted #003459;
+            color: #003459;
+        }
+        
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        a:hover {
+            border-bottom: none;
+            text-decoration: underline;
+            color: #8e1024;
+        }

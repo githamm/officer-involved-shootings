@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex">
+    <!-- <meta http-equiv="refresh" content="60; url=http://localhost:8000">
+    <meta http-equiv="refresh" content="180; url=http://extras.denverpost.com/projects/2017/nba-draft/index.html"> -->
+    <title>Colorado officer-involved shootings database | The Denver Post</title>
+    <link rel="canonical" href="http://extras.denverpost.com/projects/2017/officer-involved-shootings/index.html" />
+    <link rel="shortcut icon" href="http://extras.mnginteractive.com/live/media/favIcon/dpo/favicon.ico" type="image/x-icon" />
+    <meta name="distribution" content="global" />
+    <meta name="robots" content="index, nofollow" />
+    <meta name="title" content="Colorado officer-involved shootings database" />
+    <meta name="language" content="en, sv" />
+    <meta name="Copyright" content="Copyright &copy; The Denver Post." />
+    <link rel="author" href="humans.txt" />
+    <meta name="description" content="Databse of officer-involved shootings in Colorado.">
+    <meta name="news_keywords" content="police shootings, officer-involved shootings">
+    <meta name="twitter:card" value="summary" />
+    <meta name="twitter:url" value="http://extras.denverpost.com/projects/2017/officer-involved-shootings/index.html" />
+    <meta name="twitter:title" value="Colorado officer-involved shootings database" />
+    <meta name="twitter:description" value="Databse of officer-involved shootings in Colorado." />
+    <!-- <meta name="twitter:image" value="http://extras.denverpost.com/projects/2017/nfl-draft/images/nfl-draft-main.jpg" /> -->
+    <meta name="twitter:site" value="@denverpost" />
+    <meta name="twitter:domain" value="denverpost.com" />
+    <meta name="twitter:creator" content="@DenverPost">
+    <meta name="twitter:app:name:iphone" value="Denver Post">
+    <meta name="twitter:app:name:ipad" value="Denver Post">
+    <meta name="twitter:app:name:googleplay" value="The Denver Post">
+    <meta name="twitter:app:id:iphone" value="id375264133">
+    <meta name="twitter:app:id:ipad" value="id409389010">
+    <meta name="twitter:app:id:googleplay" value="com.ap.denverpost" />
+    <meta property="fb:app_id" content="105517551922" />
+    <meta property="og:title" content="Colorado officer-involved shootings database" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://extras.denverpost.com/projects/2017/officer-involved-shootings/index.html" />
+    <!-- <meta property="og:image" content="http://extras.denverpost.com/projects/2017/nfl-draft/images/nfl-draft-main.jpg" /> -->
+    <meta property="og:site_name" content="The Denver Post" />
+    <meta property="og:description" content="Databse of officer-involved shootings in Colorado." />
+    <meta property="article:publisher" content="https://www.facebook.com/denverpost" />
+    <meta name="google-site-verification" content="2bKNvyyGh6DUlOvH1PYsmKN4KRlb-0ZI7TvFtuKLeAc" />
+    <!-- STYLE SHEETS -->
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://extras.mnginteractive.com/live/partners/MediaCenter/embedded_galleries/mc_embed_styles.css" type="text/css" />
+    <link rel="stylesheet" href="http://extras.denverpost.com/frameworks/tables/datatables/css/base.css" type="text/css">
+    <link rel="stylesheet" href="http://extras.denverpost.com/frameworks/tables/datatables/css/base-datatable.css" type="text/css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/5.5.1/css/foundation.min.css" type="text/css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/plug-ins/f2c75b7247b/integration/foundation/dataTables.foundation.css" type="text/css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css" type="text/css">
+    <link rel="stylesheet" href="http://extras.denverpost.com/frameworks/tables/datatables/css/table-styles.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!-- SCRIPTS -->
+    <script src="http://extras.denverpost.com/frameworks/tables/datatables/js/lib/jquery-1.11.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="http://extras.denverpost.com/frameworks/tables/datatables/js/lib/tabletop.js"></script>
+    <script src="js/columnfilter.js"></script>
+    <script src="http://extras.denverpost.com/frameworks/tables/datatables/js/lib/underscore.js"></script>
+    <script src="http://extras.denverpost.com/frameworks/tables/datatables/js/lib/handlebars-v1.3.0.js"></script>
+    <script src="http://cdn.datatables.net/plug-ins/f2c75b7247b/integration/foundation/dataTables.foundation.js"></script>
+    <script src="http://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js"></script>
+    <script src="http://launch.newsinc.com/js/embed.js" id="_nw2e-js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <a name="players"></a>
+        <div class="large-12 medium-12 small-12 columns">
+            <table id="searchable-table" class="display responsive no-wrap" width="100%">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Date</th>
+                        <th>Department</th>
+                        <th>Officer<br>fired</th>
+                        <th>Suspect<br>fired</th>
+                        <th>Officer<br>injured</th>
+                        <th>Suspect<br>injured</th>
+                        <th>Officer<br>killed</th>
+                        <th>Suspect<br>killed</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <th>All</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <script id="datatable-template" type="text/x-handlebars-template">
+        {{#each elements}} // The following correspond to spreadsheet headers
+        <tr>
+            <td data-title="Year:">{{ year }}</td>
+            <td data-title="Date:"><a href="{{ article-url }}" target="_blank">{{ date }}</a></td>
+            <td data-title="Department:">{{ department }}</td>
+            <td data-title="Officer fired:">{{ officer-fired }}</td>
+            <td data-title="Suspect fired:">{{ suspec-fired }}</td>
+            <td data-title="Officer injured:">{{ officer-injured }}</td>
+            <td data-title="Suspect injured:">{{ suspect-injured }}</td>
+            <td data-title="Officer killed:">{{ officer-killed }}</td>
+            <td data-title="Suspect killed:">{{ suspect-killed }}</td>
+        </tr>
+        {{/each}}
+    </script>
+    <!-- Custom JS -->
+    <script src="http://extras.denverpost.com/frameworks/tables/datatables/js/base.js"></script>
+    <script src="js/officer-involved-shooting-table.js"></script>
+</body>
+
+</html>
