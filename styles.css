@@ -1,4 +1,4 @@
-        #top-bar-margin {
+            #top-bar-margin {
             margin-bottom: 20px;
         }
         
@@ -125,3 +125,9 @@
             text-decoration: underline;
             color: #8e1024;
         }
+        
+        span.circle {
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            background-color: black;
